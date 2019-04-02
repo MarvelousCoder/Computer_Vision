@@ -1,0 +1,128 @@
+InceptionV3-v4.0:
+- DROPOUT = 70%
+- LR = 0.002
+- REDUCE_LR = Divide por 2 até um mínimo de 0.0001 caso loss não diminua em 5 épocas
+- BS = 64
+- ACC = 0.9289782244556114 (Early Stopping para acurácia não melhorada em 20 épocas. Parou em epoch = 44)
+- DECAY = NÃO HÁ
+- EPOCHS = 50
+- WIDTH/HEIGHT = 224 (DEFAULT)
+
+InceptionV3-v3.0:
+- DROPOUT = 70%
+- LR = 0.001
+- CYCLIC LR = com base_lr = LR e max_lr = 0.005. Step_size = 8*num_iterações = 8*(training_size//BS)-triangular
+- BS = 64
+- ACC = 0.8964824120603015
+- DECAY = NÃO HÁ
+- EPOCHS = 40
+- WIDTH/HEIGHT = 224 (DEFAULT)
+
+InceptionV3-v1.0:
+- DROPOUT = 50%
+- LR = 0.001
+- BS = 32
+- ACC = 0.8696817420435511
+- DECAY = LR/EPOCHS = 0.001/50
+- EPOCHS = 50
+- WIDTH/HEIGHT = 224 (DEFAULT)
+
+InceptionV3-v2.0:
+- DROPOUT = 70%
+- LR = 0.001
+- REDUCE_LR = Divide por 2 até um mínimo de 0.0001 caso loss não diminua em 5 épocas
+- BS = 32
+- ACC = 0.9242881072026801 (Early Stopping para acurácia não melhorada em 20 épocas. Parou em epoch = 45)
+- DECAY = NÃO HÁ
+- EPOCHS = 50
+- WIDTH/HEIGHT = 224 (DEFAULT)
+
+InceptionResNetV2-v1.0:
+- DROPOUT = 50%
+- LR = 0.001
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-triangular
+- BS = 64
+- ACC = 0.9306532663316583
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 50
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+InceptionResNetV2-v2.0:
+- DROPOUT = 50%
+- LR = 0.001 (Early Stopping de 15 épocas pra acurácia. Parou em epoch = 35)
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-triangular
+- BS = 128
+- ACC = 0.9236180904522613
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 40
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+InceptionResNetV2-v3.0:
+- DROPOUT = 40%
+- LR = 0.001 ( Early Stopping de 20 épocas pra acurácia. Parou em epoch = 36)
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-exp_range
+- BS = 64
+- ACC = 0.9343383584589615
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 40
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+Xception-v1.0:
+- DROPOUT = 50%
+- LR = 0.001
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-exp_range
+- BS = 64
+- ACC = 0.9262981574539364
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 40
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+Xception-v2.0:
+- DROPOUT = 70%
+- LR = 0.001
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-exp_range
+- BS = 48
+- ACC = 0.9266331658291457
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 25
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+Xception-v3.0:
+- DROPOUT = 60%
+- LR = 0.001
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-triangular2
+- BS = 64
+- ACC = 0.9323283082077052
+- DECAY LR  = NÃO HÁ
+- EPOCHS = 25
+- WIDTH/HEIGHT = 299 (DEFAULT)
+
+NasNet:
+- DROPOUT = 50%
+- LR = 0.001
+- BS = 32
+- ACC = 0.876716917922948
+- DECAY = LR/EPOCHS = 0.001/50
+- EPOCHS = 50
+- WIDTH/HEIGHT = 331 (DEFAULT)
+
+ResNet50-v1.0:
+- DROPOUT = 80%
+- LR = 0.001
+- BS = 32
+- REDUCE_LR = Divide por 2 até um mínimo de 0.0001 caso loss não diminua em 5 épocas
+- ACC = 0.9041876046901173
+- DECAY = NÃO HÁ
+- EPOCHS = 50
+- WIDTH/HEIGHT = 224 (DEFAULT)
+
+ResNet50-v2.0:
+- DROPOUT = 70%
+- LR = 0.001
+- BS = 64
+- CYCLIC LR = com base_lr = LR e max_lr = 0.006. Step_size = 8*num_iterações = 8*(training_size//BS)-triangular
+- ACC = 0.871356783919598
+- DECAY = NÃO HÁ
+- EPOCHS = 45
+- WIDTH/HEIGHT = 224 (DEFAULT)
+

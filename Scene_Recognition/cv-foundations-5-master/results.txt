@@ -1,0 +1,24 @@
+default_noDrop
+  Loss, Acurácia:  [0.40386492589633316, 0.871356783919598]
+default_drop_0.2
+  Loss, Acurácia:  [0.42421633982203427, 0.8971524288107202]
+default_drop_0.5
+  Loss, Acurácia:  [0.3945505297841308, 0.88107202680067]
+default_drop_0.8
+  Loss, Acurácia:  [0.5297553759843401, 0.8921273031825796]
+bonus_noDrop
+  Loss, Acurácia:  [1.0778849303872142, 0,8911222780569514]
+bonus_drop_0,2
+  Loss, Acurácia:  [1,0409148982721357, 0,8780569514237856] 
+bonus_drop_0,5
+  Loss, Acurácia:  [1,0189200881288278, 0,8773869346733668]
+bonus_drop_0,8
+  Loss, Acurácia:  [1,0660636755240023, 0,9051926298157454]
+bonus_noDrop_freeze
+  Loss, Acurácia:  [0,646135434268707, 0,8877721943048577]
+bonus_drop_0,2_freeze
+  Loss, Acurácia:  [0,6633241579510658, 0,8917922948073702]
+bonus_drop_0,5_freeze
+  Loss, Acurácia:  [0,6207362706587343, 0,9028475711892797]
+bonus_drop_0,8_freeze
+  Loss, Acurácia:  [0,6260515336565037, 0,8974874371859296]
