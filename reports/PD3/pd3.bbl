@@ -1,0 +1,45 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Birchfield and Tomasi(1999)]{birchfield1999depth}
+Stan Birchfield and Carlo Tomasi.
+\newblock Depth discontinuities by pixel-to-pixel stereo.
+\newblock \emph{International Journal of Computer Vision}, 35\penalty0
+  (3):\penalty0 269--293, 1999.
+
+\bibitem[Hartley and Zisserman(2003)]{Hartley}
+R.~I. Hartley and A.~Zisserman.
+\newblock \emph{Multiple View Geometry in Computer Vision}.
+\newblock Cambridge University Press, ISBN 0521540518, 2003.
+
+\bibitem[Hirschmuller(2008)]{hirschmullerstereo}
+Heiko Hirschmuller.
+\newblock Stereo processing by semiglobal matching and mutual information.
+\newblock \emph{IEEE Transactions on pattern analysis and machine
+  intelligence}, 30\penalty0 (2):\penalty0 328--341, 2008.
+
+\bibitem[Its(2016)]{opencvmanual}
+\emph{The OpenCV Reference Manual}.
+\newblock Itseez, 3.2.0 edition, Dezembro 2016.
+
+\bibitem[Itseez(2018)]{OpenCV}
+Itseez.
+\newblock Open source computer vision library.
+\newblock \url{https://github.com/itseez/opencv}, 2018.
+
+\bibitem[Kaehler and Bradski(2016)]{kaehler2016learning}
+Adrian Kaehler and Gary Bradski.
+\newblock \emph{Learning OpenCV 3: Computer Vision in C++ with the OpenCV
+  Library}.
+\newblock O'Reilly Media, Inc., ISBN 978-1-4919-3800-3, 2016.
+
+\bibitem[Kurt(1998)]{kurt}
+Konolige Kurt.
+\newblock Small vision system: Hardware and implementation.
+\newblock In \emph{Robotics research}, pages 203--212. Springer, Japan, 1998.
+
+\end{thebibliography}

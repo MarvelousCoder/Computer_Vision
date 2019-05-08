@@ -1,0 +1,83 @@
+Resultados modelo 128 Unidades e Dropout 0.2
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 89us/step
+[0.6458492412567138, 0.718]
+
+
+Resultados modelo 128 Unidades e Dropout 0.5
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 112us/step
+[0.5723525199890137, 0.721]
+
+
+Resultados modelo 128 Unidades e Dropout 0.8
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 128us/step
+[0.5912025756835938, 0.719]
+
+
+Resultados modelo 512 Unidades e Dropout 0.2
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 151us/step
+[0.6283539295196533, 0.735]
+
+
+Resultados modelo 512 Unidades e Dropout 0.5
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 177us/step
+[0.6367879610061645, 0.718]
+
+
+Resultados modelo 512 Unidades e Dropout 0.8
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 193us/step
+[0.5568745393753052, 0.726]
+
+
+Resultados modelo 1024 Unidades e Dropout 0.2
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 213us/step
+[0.5619779253005981, 0.72]
+
+
+Resultados modelo 1024 Unidades e Dropout 0.5
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 237us/step
+[0.6751795139312744, 0.728]
+
+
+Resultados modelo 1024 Unidades e Dropout 0.8
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 257us/step
+[0.5840615463256836, 0.722]
+
+-------------------------------------------------------------------------------
+
+Resultados modelo <keras.layers.merge.Concatenate object at 0x7f82661626d8>
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 92us/step
+[0.5675872497558594, 0.729]
+
+
+Resultados modelo <keras.layers.merge.Add object at 0x7f8266177320>
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 106us/step
+[0.7177790498733521, 0.711]
+
+
+Resultados modelo <keras.layers.merge.Subtract object at 0x7f81eeae1da0>
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 128us/step
+[0.784501404762268, 0.684]
+
+
+Resultados modelo <keras.layers.merge.Dot object at 0x7f81eeadce48>
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 166us/step
+[0.6077547101974488, 0.678]
+
+
+Resultados modelo <keras.layers.merge.Multiply object at 0x7f81eeb45a58>
+Validation loss e validation accuracy:
+1000/1000 [==============================] - 0s 168us/step
+[0.7238933382034302, 0.708]

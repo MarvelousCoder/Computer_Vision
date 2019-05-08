@@ -1,0 +1,112 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abadi et~al.(2015)]{tensorflow2015-whitepaper}
+Mart\'{\i}n Abadi et~al.
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock URL \url{https://www.tensorflow.org/}.
+\newblock Software available from tensorflow.org.
+
+\bibitem[Amos et~al.(2016)Amos, Ludwiczuk, and
+  Satyanarayanan]{amos2016openface}
+Brandon Amos, Bartosz Ludwiczuk, and Mahadev Satyanarayanan.
+\newblock Openface: A general-purpose face recognition library with mobile
+  applications.
+\newblock Technical report, CMU-CS-16-118, CMU School of Computer Science,
+  2016.
+
+\bibitem[Chollet et~al.(2015)]{chollet2015keras}
+Fran\c{c}ois Chollet et~al.
+\newblock Keras.
+\newblock \url{https://keras.io}, 2015.
+
+\bibitem[Chollet(2016)]{xception}
+Fran{\c{c}}ois Chollet.
+\newblock Xception: Deep learning with depthwise separable convolutions.
+\newblock \emph{CoRR}, abs/1610.02357, 2016.
+\newblock URL \url{http://arxiv.org/abs/1610.02357}.
+
+\bibitem[Deng et~al.(2009)Deng, Dong, Socher, jia Li, Li, and
+  Fei-fei]{imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li~jia Li, Kai Li, and Li~Fei-fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In \emph{In CVPR}, 2009.
+
+\bibitem[Hearst et~al.(1998)Hearst, Dumais, Osuna, Platt, and
+  Scholkopf]{hearst1998support}
+Marti~A. Hearst, Susan~T Dumais, Edgar Osuna, John Platt, and Bernhard
+  Scholkopf.
+\newblock Support vector machines.
+\newblock \emph{IEEE Intelligent Systems and their applications}, 13\penalty0
+  (4):\penalty0 18--28, 1998.
+
+\bibitem[Huang et~al.(2008)Huang, Mattar, Berg, and Learned-Miller]{lfw}
+Gary~B Huang, Marwan Mattar, Tamara Berg, and Eric Learned-Miller.
+\newblock Labeled faces in the wild: A database forstudying face recognition in
+  unconstrained environments.
+\newblock In \emph{Workshop on faces in'Real-Life'Images: detection, alignment,
+  and recognition}, 2008.
+
+\bibitem[Huang et~al.(2012)Huang, Mattar, Lee, and
+  Learned-Miller]{deepfunneling}
+Gary~B. Huang, Marwan Mattar, Honglak Lee, and Erik Learned-Miller.
+\newblock Learning to align from scratch.
+\newblock In \emph{NIPS}, 2012.
+
+\bibitem[Its(2016)]{opencvmanual}
+\emph{The OpenCV Reference Manual}.
+\newblock Itseez, 3.2.0 edition, Dezembro 2016.
+
+\bibitem[Ronan~Collobert and Chintala.(2017)]{torch}
+Koray~Kavukcuoglu Ronan~Collobert, Clement~Farabet and Soumith Chintala.
+\newblock Torch - a scientific computing framework for luajit, 2017.
+\newblock URL \url{http://torch.ch}.
+\newblock [Online; accessed 30-Novembro-2018].
+
+\bibitem[Schroff et~al.(2015)Schroff, Kalenichenko, and Philbin]{triplet}
+Florian Schroff, Dmitry Kalenichenko, and James Philbin.
+\newblock Facenet: A unified embedding for face recognition and clustering.
+\newblock In \emph{The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2015.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock \emph{J. Mach. Learn. Res.}, 15\penalty0 (1):\penalty0 1929--1958,
+  January 2014.
+\newblock ISSN 1532-4435.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2627435.2670313}.
+
+\bibitem[Taigman et~al.(2014)Taigman, Yang, Ranzato, and Wolf]{siamese}
+Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, and Lior Wolf.
+\newblock Deepface: Closing the gap to human-level performance in face
+  verification.
+\newblock In \emph{The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2014.
+
+\bibitem[Tieleman and Hinton(2012)]{rmsprop}
+T.~Tieleman and G.~Hinton.
+\newblock {Lecture 6.5---RmsProp: Divide the gradient by a running average of
+  its recent magnitude}.
+\newblock COURSERA: Neural Networks for Machine Learning, 2012.
+
+\bibitem[Turk and Pentland(1991)]{eigenfaces}
+Matthew~A Turk and Alex~P Pentland.
+\newblock Face recognition using eigenfaces.
+\newblock In \emph{Computer Vision and Pattern Recognition, 1991. Proceedings
+  CVPR'91., IEEE Computer Society Conference on}, pages 586--591. IEEE, 1991.
+
+\bibitem[Viola and Jones(2004)]{viola}
+Paul Viola and Michael~J Jones.
+\newblock Robust real-time face detection.
+\newblock \emph{International journal of computer vision}, 57\penalty0
+  (2):\penalty0 137--154, 2004.
+
+\end{thebibliography}

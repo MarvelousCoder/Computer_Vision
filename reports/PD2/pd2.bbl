@@ -1,0 +1,49 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[de~Campos(2006)]{teofilo}
+Teófilo~Emídio de~Campos.
+\newblock \emph{3D Visual Tracking of Articulated Objects and Hands}.
+\newblock PhD thesis, University of Oxford, 2006.
+
+\bibitem[Hartley and Zisserman(2003)]{Hartley}
+R.~I. Hartley and A.~Zisserman.
+\newblock \emph{Multiple View Geometry in Computer Vision}.
+\newblock Cambridge University Press, ISBN 0521540518, 2003.
+
+\bibitem[Its(2016)]{opencvmanual}
+\emph{The OpenCV Reference Manual}.
+\newblock Itseez, 3.2.0 edition, Dezembro 2016.
+
+\bibitem[Itseez(2018)]{OpenCV}
+Itseez.
+\newblock Open source computer vision library.
+\newblock \url{https://github.com/itseez/opencv}, 2018.
+
+\bibitem[Kaehler and Bradski(2016)]{kaehler2016learning}
+Adrian Kaehler and Gary Bradski.
+\newblock \emph{Learning OpenCV 3: Computer Vision in C++ with the OpenCV
+  Library}.
+\newblock O'Reilly Media, Inc., ISBN 978-1-4919-3800-3, 2016.
+
+\bibitem[Morvan(2009)]{phdcoord}
+Yannick Morvan.
+\newblock \emph{Acquisition, compression and rendering of depth and texture for
+  multi-view video}.
+\newblock PhD thesis, Eindhoven University of Technology, Abril 2009.
+
+\bibitem[Uni(2012)]{relatoriomoodle}
+\emph{Revisão de Conceitos em Projeção, Homografia, Calibração de Câmera,
+  Geometria Epipolar, Mapas de Profundidade e Varredura de Planos}.
+\newblock Unicamp, Junho 2012.
+
+\bibitem[users(2018)]{webpage}
+Stackoverflow users.
+\newblock Measure real size of object with calibrated camera opencv c++?
+\newblock \url{https://goo.gl/7rZwM8}, 2018.
+
+\end{thebibliography}
